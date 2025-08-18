@@ -23,7 +23,7 @@ I am a Technical Writer experienced in analyzing complex concepts and writing ea
 
 
 ## 🔗 Additional Links
-
+- [Portfolio Site](https://writetech-accelerator-portfolio-car-eight.vercel.app/)
 - [LinkedIn](https://www.linkedin.com/in/carol-njoroge-6b9120b/)
 - [Medium](https://medium.com/@njorogecarol)
 

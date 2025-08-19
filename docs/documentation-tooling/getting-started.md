@@ -42,4 +42,4 @@ API: http://localhost:8055
 
 Admin App: http://localhost:8055/admin
 
-Directus project is now running.
+

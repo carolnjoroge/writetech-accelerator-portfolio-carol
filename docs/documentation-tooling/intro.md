@@ -1,23 +1,13 @@
-# Documentation Tooling
+# Introduction
 
-This project involved auditing and restructuring documentation for [Platform Name] using Docusaurus.
+[Directus](https://directus.io/) is an open-source data platform and headless CMS.  
+It provides a **REST and GraphQL API** layer on top of any SQL database. It acts as a bridge between the database and the front-end.
 
-## Live Site
+## Key Features
 
-[View Site](#)
+- **API for any database** – It auto-generates REST & GraphQL APIs.
+- **Admin App** – It has a no-code content management dashboard.
+- **Data modeling** – It creates, updates, and relates tables visually.
+- **Extensible** – It has custom hooks, extensions, and integrations.
 
-## What I Improved
-
-- [Example improvement 1]
-- [Example improvement 2]
-- [Example improvement 3]
-
-## Challenges
-
-- [Challenge 1]
-- [Challenge 2]
-
-## What I Learnt
-
-- [Key takeaway 1]
-- [Key takeaway 2]
+Directus is used for projects that need a database-driven API backend with minimal setup.

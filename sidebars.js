@@ -42,9 +42,14 @@ const sidebars = {
       id: 'documentation-tooling/intro',
     },
     {
-      type: 'category',
+      type: 'doc',
       label: 'Getting Started',
-      items: ['tutorial-basics/create-a-document'],
+      id: 'documentation-tooling/getting-started',
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      items: ['documentation-tooling/reference/get-items','documentation-tooling/reference/post-items'],
     },
   ],
     apiSidebar: [
@@ -53,11 +58,11 @@ const sidebars = {
       label: 'Introduction',
       id: 'api-documentation/intro',
     },
-    {
+    /*{
       type: 'category',
       label: 'Setting Up',
       items: ['tutorial-basics/create-a-document'],
-    },
+    },*/
   ],
    
 };

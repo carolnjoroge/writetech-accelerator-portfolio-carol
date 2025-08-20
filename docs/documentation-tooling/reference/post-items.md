@@ -1,4 +1,4 @@
-# POST
+# POST Request
 
 Create a new item in collection.
 

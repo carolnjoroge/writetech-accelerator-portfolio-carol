@@ -50,8 +50,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/carolnjoroge/writetech-accelerator-portfolio-carol',
+          //editUrl:
+            //'https://github.com/carolnjoroge/writetech-accelerator-portfolio-carol',
         },
         blog: {
           showReadingTime: true,
@@ -61,8 +61,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/carolnjoroge/writetech-accelerator-portfolio-carol',
+          //editUrl:
+            //'https://github.com/carolnjoroge/writetech-accelerator-portfolio-carol',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -81,7 +81,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -132,11 +132,11 @@ const config = {
                 label: 'Medium',
                 href: 'https://medium.com/@njorogecarol',
               },
-              {
+              /*{
                 label: 'Discord',
                 href: 'https://discordapp.com',
               },
-              /*{
+              {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               },*/
@@ -145,10 +145,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
+              /*{
                 label: 'Blog',
                 to: '/blog',
-              },
+              },*/
               {
                 label: 'GitHub',
                 href: 'https://github.com/carolnjoroge/writetech-accelerator-portfolio-carol',

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # My WriteTech Accelerator Portfolio
 
 Welcome! This repository contains all my project work and deliverables from the **WriteTech Accelerator Program**.

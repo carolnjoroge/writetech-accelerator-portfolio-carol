@@ -1,4 +1,4 @@
-# Introductionn
+# Introduction
 
 [Directus](https://directus.io/) is an open-source data platform and headless CMS.  
 It provides a **REST and GraphQL API** layer on top of any SQL database. It acts as a bridge between the database and the front-end.

@@ -27,6 +27,71 @@ const sidebars = {
       id: 'intro',
     },
   ],
+  portfolioSidebar: [
+    {
+      type: 'doc',
+      label: 'Portfolio Intro',
+      id: 'portfolio-intro',
+    },
+    {
+      type: 'category',
+      label: 'Documentation Tooling',
+      items: [
+              {
+                type: 'doc',
+                label: 'Introduction',
+                id: 'documentation-tooling/intro',
+              },
+              {
+                type: 'doc',
+                label: 'Getting Started',
+                id: 'documentation-tooling/getting-started',
+              },
+              {
+                type: 'category',
+                label: 'Reference',
+                items: ['documentation-tooling/reference/get-items','documentation-tooling/reference/post-items'],
+              },
+            ],
+    },
+    {
+      type: 'category',
+      label: 'API Documentation',
+      items: [
+                 {
+      type: 'doc',
+      label: 'Introduction',
+      id: 'api-documentation/intro',
+    },
+    {
+      type: 'doc',
+      label: 'Getting Started',
+      id: 'api-documentation/getting-started',
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [
+              {
+                type: 'doc',
+                id: 'api-documentation/reference/payout',
+                label: 'Initiate Payout',
+              },
+              {
+                type: 'doc',
+                id: 'api-documentation/reference/balance',
+                label: 'Check Balance',
+              },
+              {
+                type: 'doc',
+                id: 'api-documentation/reference/listcards',
+                label: 'List Gift Cards',
+              },
+            ],
+      },
+            ],
+    },
+  ],
    /* toolingSidebar: [
     'documentation-tooling/intro',
     {
@@ -35,7 +100,7 @@ const sidebars = {
       items: ['tutorial-basics/create-a-document'],
     },
   ],*/
-   toolingSidebar: [
+   /*toolingSidebar: [
     {
       type: 'doc',
       label: 'Introduction',
@@ -51,19 +116,45 @@ const sidebars = {
       label: 'Reference',
       items: ['documentation-tooling/reference/get-items','documentation-tooling/reference/post-items'],
     },
-  ],
-    apiSidebar: [
+  ],*/
+   /* apiSidebar: [
     {
       type: 'doc',
       label: 'Introduction',
       id: 'api-documentation/intro',
     },
+    {
+      type: 'doc',
+      label: 'Getting Started',
+      id: 'api-documentation/getting-started',
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [
+              {
+                type: 'doc',
+                id: 'api-documentation/reference/payout',
+                label: 'Initiate Payout',
+              },
+              {
+                type: 'doc',
+                id: 'api-documentation/reference/balance',
+                label: 'Check Balance',
+              },
+              {
+                type: 'doc',
+                id: 'api-documentation/reference/listcards',
+                label: 'List Gift Cards',
+              },
+            ],
+    },*/
     /*{
       type: 'category',
       label: 'Setting Up',
       items: ['tutorial-basics/create-a-document'],
     },*/
-  ],
+  //],
    
 };
 

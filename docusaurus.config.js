@@ -95,6 +95,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'portfolioSidebar',
+            position: 'left',
+            label: 'WriteTech Portfolio',
+          },
+          /*{
+            type: 'docSidebar',
             sidebarId: 'toolingSidebar',
             position: 'left',
             label: 'Docs Tooling',
@@ -104,7 +110,7 @@ const config = {
             sidebarId: 'apiSidebar',
             position: 'left',
             label: 'API Documentation',
-          },
+          },*/
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/carolnjoroge/writetech-accelerator-portfolio-carol',

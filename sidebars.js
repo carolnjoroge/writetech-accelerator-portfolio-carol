@@ -30,7 +30,7 @@ const sidebars = {
   portfolioSidebar: [
     {
       type: 'doc',
-      label: 'Portfolio Intro',
+      label: 'Portfolio Introduction',
       id: 'portfolio-intro',
     },
     {

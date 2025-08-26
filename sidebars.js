@@ -91,6 +91,11 @@ const sidebars = {
       },
             ],
     },
+    {
+      type: 'doc',
+      label: 'Automation',
+      id: 'portfolio-intro',
+    },
   ],
    /* toolingSidebar: [
     'documentation-tooling/intro',

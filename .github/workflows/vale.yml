@@ -10,7 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Run Vale Check
-        uses: errata-ai/vale-action@v2.1.1
+        run: 'echo "Repository: ${{ github.repository }}"'

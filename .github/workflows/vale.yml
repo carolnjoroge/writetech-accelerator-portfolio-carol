@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Run Vale Check
-        run: errata-ai/vale-action@v2.1.1
+        uses: errata-ai/vale-action@v2.1.1

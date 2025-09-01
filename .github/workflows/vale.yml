@@ -5,7 +5,7 @@ on:
 
   pull_request:
     branches: [portfolio-site]
-    # Allows you to run workflow manually
+    # Allows you to run this workflow manually
   workflow_dispatch:
 
 jobs:

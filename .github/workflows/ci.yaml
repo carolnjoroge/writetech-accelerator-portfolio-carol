@@ -1,0 +1,15 @@
+name: GitHub Actions Demo
+
+on:
+  pull_request:
+    branches: [portfolio-site]
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Check for broken links
+        uses: tcort/github-action-markdown-link-check@v1

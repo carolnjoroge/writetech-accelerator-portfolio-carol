@@ -1,0 +1,22 @@
+name: Vale-Linting
+# Event to trigger when the action is run
+on:
+  # Tiggers the workflow on push or pull request events but only for the main branch
+
+  pull_request:
+    branches: [portfolio-site]
+    # Allows you to run this workflow manually
+  workflow_dispatch:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Vale Check
+        uses: errata-ai/vale-action@v2.1.1
+
+        with:
+          fail_on_error: false

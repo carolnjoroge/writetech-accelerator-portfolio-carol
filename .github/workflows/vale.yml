@@ -7,21 +7,20 @@ on:
   pull_request:
     branches:
       - portfolio-site
+    # target .md files
+    paths:
+      - "**/*.md"
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Code
         uses: actions/checkout@v4
 
         # run vale check
       - name: Run Vale check
         uses: errata-ai/vale-action@v2.1.1
-
-        # target .md files
-      - name: Vale on Markdown
-        run: vale docs/**/*.md
 
         # check broken links
       - name: Check broken links

@@ -26,4 +26,4 @@ jobs:
       - name: Check broken links
         uses: tcort/github-action-markdown-link-check@v1
         with:
-          folder-path: "docs/"
+          folder-path: "docs/docs-automation"

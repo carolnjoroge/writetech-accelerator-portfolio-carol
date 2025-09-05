@@ -93,7 +93,7 @@ const sidebars = {
     },
     {
       type: 'doc',
-      label: 'Automation',
+      label: 'Docs Automation',
       id: 'portfolio-intro',
     },
   ],

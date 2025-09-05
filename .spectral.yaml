@@ -1,5 +1,1 @@
-extends: spectral:oas
-rules:
-operation-operationId: error # require operationId
-operation-description: warn # encourage descriptions
-info-contact: off # example of downgrading/disabling a rule
+'extends: ["spectral:oas", "spectral:asyncapi", "spectral:arazzo"]'

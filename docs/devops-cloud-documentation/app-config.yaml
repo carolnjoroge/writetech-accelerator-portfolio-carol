@@ -1,0 +1,13 @@
+app_name: wth-bootcamp-app
+version: 1.0
+
+team_members:
+    - Alice
+    - Bob
+    - Charlie
+
+environment: 
+    stage: dev
+    region: us-east-1
+
+logging_enabled: true

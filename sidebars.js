@@ -92,9 +92,48 @@ const sidebars = {
             ],
     },
     {
-      type: 'doc',
+      type: 'category',
       label: 'Docs Automation',
-      id: 'portfolio-intro',
+      items: [
+    {
+      type: 'doc',
+      label: 'Introduction',
+      id: 'docs-automation/README',
+    },
+    ],
+    },
+    {
+      type: 'category',
+      label: 'AI Documentation',
+      items: [
+    {
+      type: 'doc',
+      label: 'AI Introduction',
+      id: 'ai-documentation/README',
+    },
+    ],
+    },
+    {
+      type: 'category',
+      label: 'DevOps & Cloud Documentation',
+      items: [
+    {
+      type: 'doc',
+      label: 'DevOps Cloud Introduction',
+      id: 'devops-cloud-documentation/README',
+    },
+    ],
+    },
+    {
+      type: 'category',
+      label: 'Web3 Documentation',
+      items: [
+    {
+      type: 'doc',
+      label: 'Web3 Introduction',
+      id: 'devops-cloud-documentation/README',
+    },
+    ],
     },
   ],
    /* toolingSidebar: [

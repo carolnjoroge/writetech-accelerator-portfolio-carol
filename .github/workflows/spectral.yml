@@ -1,0 +1,53 @@
+name: Spectral Lint & Redocly Build
+
+on:
+  push:
+    branches: [portfolio-site]
+  pull_request:
+    branches: [portfolio-site]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Spectral
+        run: npm install -g @stoplight/spectral-cli
+
+      - name: Run Spectral linting
+        run: |
+          for file in $(find . -name '*.yaml' -o -name '*.yml' | grep -v node_modules); do
+            spectral lint "$file" --fail-severity=error
+          done
+
+  build-docs:
+    runs-on: ubuntu-latest
+    needs: lint
+    if: github.event_name == 'push' && github.ref == 'refs/heads/portfolio-site'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Redocly CLI
+        run: npm install -g @redocly/cli
+
+      - name: Build Redocly documentation
+        run: redocly build-docs openapi.yaml --output=dist
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

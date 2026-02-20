@@ -1,0 +1,29 @@
+name: Vale Lint and Link Check
+
+on:
+  push:
+    branches:
+      - portfolio-site
+  pull_request:
+    branches:
+      - portfolio-site
+    # target .md files
+    paths:
+      - "**/*.md"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+        # run vale check
+      - name: Run Vale check
+        uses: errata-ai/vale-action@v2.1.1
+
+        # check broken links
+      - name: Check broken links
+        uses: tcort/github-action-markdown-link-check@v1
+        with:
+          folder-path: "docs/docs-automation"

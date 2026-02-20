@@ -4,7 +4,6 @@ Welcome! This repository contains all my project work and deliverables from the 
 
 _This portfolio is currently in progress._
 
-Over the course of the bootcamp, I will complete technical writing projects across various domains — including API documentation, AI, DevOps, automation, and Web3 — using modern documentation workflows and tools.
 
 ## 👩🏽‍💻 About Me
 

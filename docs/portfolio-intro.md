@@ -4,8 +4,6 @@ Welcome! This repository contains all my project work and deliverables from the 
 
 _This portfolio is currently in progress._
 
-Over the course of the bootcamp, I will complete technical writing projects across various domains — including API documentation, AI, DevOps, automation, and Web3 — using modern documentation workflows and tools.
-
 ## 👩🏽‍💻 About Me
 
 I am a Technical Writer experienced in analyzing complex concepts and writing easy-to-understand documents. This portfolio highlights the practical skills I’ve built during the WriteTech Accelerator.
